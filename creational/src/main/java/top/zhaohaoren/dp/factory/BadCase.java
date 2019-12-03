@@ -17,7 +17,7 @@ public class BadCase {
             this.name = "b";
         }
         //else if ...
-        /*
+        /* bad points：
          * 1.太多if else。性能差，代码冗余
          * 2.如果要加个c产品，需要修改该类。
          * 3.类职责过重，既要创建各种对象，又要负责各种对象的使用。
